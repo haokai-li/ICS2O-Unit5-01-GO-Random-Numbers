@@ -24,7 +24,7 @@ func main() {
 	fmt.Print("Enter integers of number that you guess: ")
 	fmt.Scanln(&guess)
 
-	//detect
+	// detect
 	if guess == number {
 		// output of right answer
 		fmt.Println("You are right!")
