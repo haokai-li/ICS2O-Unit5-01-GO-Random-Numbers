@@ -13,11 +13,11 @@ import (
 )
 
 func main() {
-	
+
 	// This function does addition
 	var guess int
 	var number int
-	
+
 	rand.Seed(time.Now().UnixNano())
 	number = rand.Intn(6) + 1
 	// input
