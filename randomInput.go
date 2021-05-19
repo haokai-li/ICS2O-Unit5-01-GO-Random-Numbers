@@ -19,7 +19,9 @@ func main() {
 	var number int
 
 	rand.Seed(time.Now().UnixNano())
+
 	number = rand.Intn(6) + 1
+
 	// input
 	fmt.Println("This program is about Random.")
 	fmt.Println()
